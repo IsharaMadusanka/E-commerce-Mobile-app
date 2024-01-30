@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="376dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Enter Products"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@drawable/womennewbaner">
+
+        <!-- Title TextView Spanning Two Columns -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Add Women Product"
+            android:layout_gravity="center"
+            android:layout_columnSpan="2"
+            android:textAlignment="center"/>
+
+        <!-- Image View Spanning Two Rows -->
+        <ImageView
+            android:id="@+id/imageViewProduct"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/addimage"
+            android:layout_gravity="center"
+            android:layout_rowSpan="2"
+            android:layout_columnSpan="2"/>
+
+        <!-- Upload Image Button -->
+        <Button
+            android:id="@+id/buttonUploadImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_gravity="center"
+            android:layout_columnSpan="2"/>
+
+        <!-- Product Name EditText -->
+        <EditText
+            android:id="@+id/editTextProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:layout_gravity="center"/>
+
+        <!-- Product Price EditText -->
+        <EditText
+            android:id="@+id/editTextProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"
+            android:layout_gravity="center"/>
+
+        <!-- Button to Add Product -->
+        <Button
+            android:id="@+id/buttonAddProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:layout_gravity="center"/>
+
+    </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:columnCount="2"
+            android:rowCount="6"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="@drawable/mennewbanner">
+
+            <!-- Title TextView Spanning Two Columns -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Add Men Product"
+                android:layout_gravity="center"
+                android:layout_columnSpan="2"
+                android:textAlignment="center"/>
+
+            <!-- Image View Spanning Two Rows -->
+            <ImageView
+                android:id="@+id/imageViewProduct3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/addimage"
+                android:layout_gravity="center"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"/>
+
+            <!-- Upload Image Button -->
+            <Button
+                android:id="@+id/buttonUploadImage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                android:layout_gravity="center"
+                android:layout_columnSpan="2"/>
+
+            <!-- Product Name EditText -->
+            <EditText
+                android:id="@+id/editTextProductName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:layout_gravity="center"/>
+
+            <!-- Product Price EditText -->
+            <EditText
+                android:id="@+id/editTextProductPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:layout_gravity="center"/>
+
+            <!-- Button to Add Product -->
+            <Button
+                android:id="@+id/buttonAddProduct3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Product"
+                android:layout_gravity="center"/>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:columnCount="2"
+            android:rowCount="6"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:background="@drawable/greenbanner">
+
+            <!-- Title TextView Spanning Two Columns -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="Add Unisex Product"
+                android:layout_gravity="center"
+                android:layout_columnSpan="2"
+                android:textAlignment="center"/>
+
+            <!-- Image View Spanning Two Rows -->
+            <ImageView
+                android:id="@+id/imageViewProduct2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/addimage"
+                android:layout_gravity="center"
+                android:layout_rowSpan="2"
+                android:layout_columnSpan="2"/>
+
+            <!-- Upload Image Button -->
+            <Button
+                android:id="@+id/buttonUploadImage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Image"
+                android:layout_gravity="center"
+                android:layout_columnSpan="2"/>
+
+            <!-- Product Name EditText -->
+            <EditText
+                android:id="@+id/editTextProductName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:layout_gravity="center"/>
+
+            <!-- Product Price EditText -->
+            <EditText
+                android:id="@+id/editTextProductPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:layout_gravity="center"/>
+
+            <!-- Button to Add Product -->
+            <Button
+                android:id="@+id/buttonAddProduct2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Product"
+                android:layout_gravity="center"/>
+
+        </GridLayout>
+
+</LinearLayout>
+
+</ScrollView>

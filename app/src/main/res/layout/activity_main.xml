@@ -1,0 +1,172 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:onClick="men"
+                android:text="Men"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="5dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:onClick="Women"
+                android:text="Women"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:onClick="Kids"
+                android:text="Unisex"/>
+
+
+            <ImageButton
+                android:id="@+id/cartbt"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/textHeading"
+                android:src="@drawable/ic_baseline_shopping_cart_24" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/allerta"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Upcoming Product"/>
+
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/product1"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/product2"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/product3"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/product4"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/product5"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/product6"
+                    />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="343dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/ic_baseline_account_circle"
+            android:drawablePadding="10dp"
+            android:elevation="3dp"
+            android:hint="Search For Your New Product "
+            android:textAlignment="center"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+
+
+        <ImageButton
+            android:id="@+id/imgbtn"
+            android:layout_marginTop="30dp"
+            android:layout_width="400dp"
+            android:layout_height="150dp"
+            android:background="@drawable/formalshoe2"
+            android:src="@drawable/formalshoe2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/allerta"
+            android:text="Formal Shoe"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/casualshoe"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sportshoe3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+            android:text="Casual Shoes"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

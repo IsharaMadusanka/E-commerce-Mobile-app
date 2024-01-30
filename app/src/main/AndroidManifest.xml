@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcommerceApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".AdminPanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KidsPDetail6"
+            android:exported="false" />
+        <activity
+            android:name=".KidsPDetail5"
+            android:exported="false" />
+        <activity
+            android:name=".KidsPDetail4"
+            android:exported="false" />
+        <activity
+            android:name=".KidsPDetail3"
+            android:exported="false" />
+        <activity
+            android:name=".KidsPDetail2"
+            android:exported="false" />
+        <activity
+            android:name=".KidsPDetail1"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPDetail6"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPDetail5"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPDetail4"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPDetail3"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPDetail2"
+            android:exported="false" />
+        <activity
+            android:name=".WomenPDetail1"
+            android:exported="false" />
+        <activity
+            android:name=".MenPDetail6"
+            android:exported="false" />
+        <activity
+            android:name=".MenPDetail5"
+            android:exported="false" />
+        <activity
+            android:name=".MenPDetail4"
+            android:exported="false" />
+        <activity
+            android:name=".MenPDetail3"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenPDetail2"
+            android:exported="false" />
+        <activity
+            android:name=".MenPDeatil1"
+            android:exported="false" />
+        <activity
+            android:name=".Kidsproduct"
+            android:exported="false" />
+        <activity
+            android:name=".WomensProduct"
+            android:exported="false" />
+        <activity
+            android:name=".MensProduct"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoardingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
